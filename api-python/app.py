@@ -15,3 +15,6 @@ def info():
         'Curso': 'Seminario de Sistemas 1 A',
         'Grupo': 'Grupo 2'
     }), 200
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=3000)
